@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI 3D Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#0ef" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+<body>
+  <!-- 3D / AI Particle Background -->
+  <canvas id="bg"></canvas>
+
+  <!-- Navigation -->
+  <header class="nav-wrap">
+    <nav class="nav">
+      <div class="brand">MY<span>Portfolio</span></div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class="hamburger" for="menu-toggle"><span></span></label>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact" class="btn btn-nav">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="section hero">
+    <div class="hero-inner reveal">
+      <div class="pfp">
+        <img src="WhatsApp Image 2025-09-03 at 23.57.49_3bf772c2.jpg" alt="Profile" />
+        <div class="ring"></div>
+      </div>
+      <h1 class="glow">Hi, I'm <span class="accent">ASHUTOSH YADAV</span></h1>
+      <p class="typing" aria-live="polite">
+        <span id="typing"></span><span class="caret">|</span>
+      </p>
+      <div class="cta">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn outline">Hire Me</a>
+      </div>
+      <div class="hero-badges">
+        <span>AI • Web • 3D • Creative</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container reveal">
+      <h2 class="section-title">About Me</h2>
+      <p class="muted">
+        I graduated from APJ Abdul Kalam technical university lucknow with a BTech in computer science and engineering in 2026. I have a passion for working on new technologies and projects that involve critical thinking and problem-solving skills. I enjoy learning new frameworks and languages, and I am always eager to apply them to real-world scenarios. My goal is to develop innovative and secure solutions that enhance the user experience and protect the data
+      </p>
+      <div class="about-grid">
+        <div class="about-card tilt">
+          <h3>What I Do</h3>
+          <p>Python (OOPs, Advanced)
+            HTML, CSS, JavaScript 
+            React.js, Tailwind CSS
+            Django, Django REST Framework
+            SQL (MySQL, PostgreSQL), MongoDB
+            NumPy, Pandas, Matplotlib, Scikit-learn
+            TensorFlow / PyTorch (basics)
+            Git, GitHub, Postman, Docker (basic)</p>
+        </div>
+        <div class="about-card tilt">
+          <h3>Stack</h3>
+          <p>Frontend → HTML, CSS, JavaScript, React.js, Tailwind CSS
+             Backend → Python (Django, DRF), Node.js (basic)
+             Database → MySQL, PostgreSQL, MongoDB
+             AI/ML → NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch
+             Tools → Git, GitHub, Postman, Docker, Render, Vercel, AWS</p>
+        </div>
+        <div class="about-card tilt">
+          <h3>Focus</h3>
+          <p>Currently focusing on mastering Full Stack Development with Django + React and preparing for scalable system design.”.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section skills">
+    <div class="container reveal">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card tilt3d">
+          <span class="skill-title">HTML5</span>
+          <span class="meter"><i style="--w:90%"></i></span>
+        </div>
+        <div class="skill-card tilt3d">
+          <span class="skill-title">CSS3</span>
+          <span class="meter"><i style="--w:88%"></i></span>
+        </div>
+        <div class="skill-card tilt3d">
+          <span class="skill-title">JavaScript</span>
+          <span class="meter"><i style="--w:85%"></i></span>
+        </div>
+        <div class="skill-card tilt3d">
+          <span class="skill-title">React</span>
+          <span class="meter"><i style="--w:80%"></i></span>
+        </div>
+        <div class="skill-card tilt3d">
+          <span class="skill-title">Node.js</span>
+          <span class="meter"><i style="--w:75%"></i></span>
+        </div>
+        <div class="skill-card tilt3d">
+          <span class="skill-title">Python</span>
+          <span class="meter"><i style="--w:70%"></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section projects">
+    <div class="container reveal">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-grid">
+        <article class="project-card card-3d">
+          <img src="Screenshot 2025-09-04 002837.png" alt="Project 1" />
+          <div class="project-content">
+            <h3>Digital Dukan clone</h3>
+            <p>NLP powered conversational bot with custom intents and analytics dashboard.</p>
+            <div class="actions">
+              <a href="#" class="btn sm">Live</a>
+              <a href="#" class="btn sm outline">Code</a>
+              <a class="btn big" href="JS_Chapterwise_Notes.zip" download>Code Download</a>
+
+
+            </div>
+          </div>
+        </article>
+        <article class="project-card card-3d">
+          <img src="Screenshot 2025-09-04 003125.png" alt="Project 2" />
+          <div class="project-content">
+            <h3>portfolio</h3>
+            <p>Futuristic personal site with particles, parallax and smooth scroll-reveal.</p>
+            <div class="actions">
+              <a href="#" class="btn sm">Live</a>
+              <a class="btn big" href="JS_Chapterwise_Notes.zip" download>Code Download</a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card card-3d">
+          <img src="Screenshot 2025-09-04 002338.png" alt="Project 3" />
+          <div class="project-content">
+            <h3>clone</h3>
+            <p>Image recognition prototype with Grad-CAM visualization and restful API.</p>
+            <div class="actions">
+              <a href="#" class="btn sm">Live</a>
+              <a class="btn big" href="JS_Chapterwise_Notes.zip" download>Code Download</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- Certificates Section -->
+<section id="certificates" class="certificates">
+  <h2>📜 Certificates</h2>
+  <div class="cert-container">
+
+    <div class="certificate-card">
+      <img src="Screenshot 2025-09-05 181806.png" alt="full satck devleopment ">
+      <h3>web devleopment</h3>
+      <p>Issued by: apna college</p>
+      <a href="Certificate Full stack.pdf" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="certificate-card">
+      <img src="Screenshot 2025-09-05 181743.png" alt="ai">
+      <h3>ai foundation </h3>
+      <p>Issued by: oracle</p>
+      <a href="eCertificate oracle.pdf" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="certificate-card">
+      <img src="Screenshot 2025-09-05 181827.png" alt="data analytics">
+      <h3>data analytics</h3>
+      <p>Issued by: Google</p>
+      <a href="certificate cyber.pdf" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="certificate-card">
+      <img src="Screenshot 2025-09-05 181853.png" alt="data analytics">
+      <h3>cyber security</h3>
+      <p>Issued by: NIELIT</p>
+      <a href="Ashutosh Yadav _certificate.pdf" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="certificate-card">
+      <img src="Screenshot 2025-09-05 181938.png" alt="data analytics">
+      <h3>Python</h3>
+      <p>Issued by: softpro</p>
+      <a href="eCertificate oracle.pdf" target="_blank">View Certificate</a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Resume -->
+  <section id="resume" class="section resume">
+    <div class="container reveal">
+      <h2 class="section-title">Resume</h2>
+      <p class="muted">Grab a copy of my CV with roles, achievements, and tech stack.</p>
+      <a class="btn big" href="JS_Chapterwise_Notes.zip" download>Download CV</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container reveal">
+      <h2 class="section-title">Contact</h2>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks! I will get back to you.');">
+        <div class="row">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <textarea rows="6" placeholder="Your Message"></textarea>
+        <button class="btn big" type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <div class="insta">
+      <a href="https://instagram.com/_.ashutoshyadav" target="_blank" title="instagram">
+      <i class="bi bi-instagram" style="font-size:30px; color:#E4405F;"></i>
+      </a>
+      <!-- WhatsApp -->
+      <a href="https://wa.me/7755092203" target="_blank" title="WhatsApp">
+      <i class="bi bi-whatsapp" style="font: #25D366;font-size: 30px;"></i>
+      </a>
+      <!-- Call -->
+      <a href="tel:+917755092203" title="Call">
+      <i class="bi bi-telephone-fill" style="color:#0A66C2;font-size: 30px;"></i>
+      </a>
+      <!-- Twitter -->
+      <a href="https://twitter.com/yourusername" target="_blank" title="Twitter">
+      <i class="bi bi-twitter" style="color:#1DA1F2;font-size: 30px;"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="year"></span>Ashutosh Yadav • contact-7755092203</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
